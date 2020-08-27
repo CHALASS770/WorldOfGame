@@ -13,7 +13,7 @@ pipeline {
          steps {
             
              bat "docker-compose up -d" /*don't work its said docker can't start */ 
-            bat "python2.7 e2e.py" /*don't work it's said selenium don't exist*/
+            bat "py e2e.py" /*don't work it's said selenium don't exist*/
          }
       }
      
