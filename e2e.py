@@ -17,7 +17,7 @@ def test_score_webservice():
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument('--no-sandbox')
-    Call the Webdriver (here Chrome)
+    #Call the Webdriver (here Chrome)
     driver = webdriver.Chrome(executable_path='C:\chromedriver.exe', options=chrome_options)
     print(3)
     #Call the Url in chromedriver
